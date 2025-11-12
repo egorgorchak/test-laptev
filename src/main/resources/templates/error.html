@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Error</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+
+<div class="container">
+    <h2>Oops! Something went wrong.</h2>
+
+    <div class="error-message">
+        <p th:text="${errorMessage}">An unexpected error occurred.</p>
+    </div>
+
+    <a class="button-link" th:href="@{/}">Go back to home</a>
+</div>
+
+</body>
+</html>

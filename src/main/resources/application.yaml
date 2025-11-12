@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: test-laptev
+
+payment:
+  api:
+    url: apiGoesHere
+    token: tokenGoesHere

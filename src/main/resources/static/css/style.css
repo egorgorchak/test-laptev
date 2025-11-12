@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f6fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 40px 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    width: 350px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #2f3640;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #2f3640;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px 12px;
+    margin-bottom: 20px;
+    border: 1px solid #dcdde1;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+input[type="number"]:focus {
+    border-color: #40739e;
+    outline: none;
+    box-shadow: 0 0 5px rgba(64, 115, 158, 0.5);
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #40739e;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2f3640;
+}
+
+.footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 12px;
+    color: #7f8fa6;
+}
+
+/* Container and layout already exist from payment page */
+.error-message {
+    background-color: #ffe6e6; /* light red background */
+    color: #c0392b;           /* dark red text */
+    border: 1px solid #e0b4b4;
+    padding: 15px 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Button-like link */
+.button-link {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background-color: #40739e;
+    color: #ffffff;
+    padding: 12px;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.button-link:hover {
+    background-color: #2f3640;
+}
